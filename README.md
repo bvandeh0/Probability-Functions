@@ -19,6 +19,19 @@ python probability_functions.py
 
 Select a distribution, enter its parameters, and choose `=`, `<=`, or `>=` to calculate a probability. The optional plot uses Matplotlib.
 
+## Interactive Jupyter notebook
+
+See **[Probability distributions: calculations, visualizations, and applications](notebooks/probability_distributions.ipynb)** for a hands-on walkthrough of all eight distributions, with theoretical formulas, numerical examples, plots, interpretation, and a reproducible simulation.
+
+Launch from the repository root:
+
+```bash
+python -m pip install -r requirements.txt jupyterlab
+jupyter lab
+```
+
+Then open `notebooks/probability_distributions.ipynb` and use **Run All**. Every example is hypothetical; the notebook does not use proprietary or personal data.
+
 ## Python API
 
 ```python
